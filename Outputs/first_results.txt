@@ -1,0 +1,40 @@
+gemma2, 9B:
+
+AIMessage(content="Here are some short, descriptive topic labels based on your provided information:
+\n\ntopic1: **Audi Ride Comfort & Performance**
+\ntopic2:  **Vehicle Reliability Issues**
+\ntopic3: **Camaro Sports Car Review** 
+\ntopic4: **Yukon Denali Engine & Drive**
+\ntopic5: **Regal Luxury Sedan Handling & Features** 
+\n\n\nLet me know if you'd like to explore other label variations!", additional_kwargs={}, response_metadata={'model': 'gemma2', 'created_at': '2025-02-17T09:09:55.0254416Z', 'done': True, 'done_reason': 'stop', 'total_duration': 166340438400, 'load_duration': 200414100, 'prompt_eval_count': 1106, 'prompt_eval_duration': 126749000000, 'eval_count': 90, 'eval_duration': 39388000000, 'message': Message(role='assistant', content='', images=None, tool_calls=None)}, id='run-5465645e-0e6b-4b8b-8bd8-3e1acfd596f5-0', usage_metadata={'input_tokens': 1106, 'output_tokens': 90, 'total_tokens': 1196})
+
+deepseek-r1, 7B:
+
+AIMessage(content='<think>\nAlright, I need to help this user by extracting topic labels from their provided data. 
+Let me start by understanding what they\'ve given.
+\n\nFirst, there are multiple topics described with keywords and corresponding terms. 
+The user wants short, descriptive labels of up to five words each. 
+They also specified a particular format for the response.
+\n\nLooking at the first set, the keywords include ride, comfortable, good, even, seats, drive, steering, like, great, miles. 
+These all seem related to driving experiences, comfort, and performance. 
+So I can combine them into something like "Driving Comfort & Experience.
+"\n\nThe second topic has work, like, would, even, one, new, good, get, vehicle, never. 
+These terms point towards reliability issues in vehicles. 
+So a suitable label here might be "Vehicle Reliability.
+"\n\nMoving on to the third topic, keywords are camaro, handling, class, interior, ranks, top, series, reliability, rating, features. 
+This clearly relates to car models and their performance aspects. 
+Thus, "Car Performance & Features" fits well.
+\n\nThe fourth group includes mpg, liter, highway, speed, average, drive, yukon, better, eight, track. 
+These are all about fuel efficiency and vehicle performance metrics, so I can label this as 
+"Fuel Efficiency."
+\n\nLastly, the fifth topic has handling, regal, engine, midsize, interior, base, upscale, materials, rear, cabin. 
+This is about a specific car model\'s interior quality and engine performance, making "Upscale Interior & Engine" an appropriate label.
+\n\nI need to ensure each label is concise yet descriptive enough to capture the essence of the topic. 
+Let me double-check if these labels accurately represent each set of keywords without overlapping too much with others.
+\n</think>
+
+\n\ntopic1: **Driving Comfort & Experience**  
+\ntopic2: **Vehicle Reliability**  
+\ntopic3: **Car Performance & Features**  
+\ntopic4: **Fuel Efficiency**  
+\ntopic5: **Upscale Interior & Engine**', additional_kwargs={}, response_metadata={'model': 'deepseek-r1:7b', 'created_at': '2025-02-17T09:23:25.405927Z', 'done': True, 'done_reason': 'stop', 'total_duration': 265709861400, 'load_duration': 49399100, 'prompt_eval_count': 1127, 'prompt_eval_duration': 140552000000, 'eval_count': 408, 'eval_duration': 125106000000, 'message': Message(role='assistant', content='', images=None, tool_calls=None)}, id='run-31edc531-ff71-4aa5-b9e1-7984c7683c00-0', usage_metadata={'input_tokens': 1127, 'output_tokens': 408, 'total_tokens': 1535})
